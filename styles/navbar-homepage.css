@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: blanchedalmond;
+  font-family: sans-serif;
+}
+
+.navbar {
+  border-bottom: 1px solid white;
+  display: flex;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+}
+
+.cornerP {
+  width: 4.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid white;
+}
+
+.icons {
+  width: 35vw;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid white;
+}
+
+.icon {
+  padding-left: 5%;
+}
+
+.link-tel {
+  display: flex;
+}
+
+.links {
+  width: 45vw;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid white;
+}
+
+.link {
+  padding-left: 2%;
+}
+
+.tel {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  padding-left: 2%;
+}
+
+/* homepage */
+
+.homePage {
+  display: flex;
+  height: 90vh;
+}
+
+.page-title {
+  border-right: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 4.5vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  writing-mode: vertical-rl;
+}
+
+.content-right {
+  width: 53.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  object-fit: cover;
+  height: 60vh;
+  width: 30vw;
+  border-radius: 50%;
+}
+
+.content-left {
+  border-right: 1px solid white;
+  width: 35vw;
+}
+
+h1 {
+  padding: 2%;
+  font-size: 60px;
+}
+
+.description {
+  padding: 3%;
+}
+
+.descr-btn {
+  display: flex;
+}
+
+.btn-contain {
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
