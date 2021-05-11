@@ -1,0 +1,21 @@
+.about {
+  display: flex;
+  height: 102vh;
+  border-bottom: 1px solid white;
+}
+
+.text2 {
+  margin-top: 10vh;
+}
+
+.page-title2 {
+  border-right: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 4.5vw;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+  writing-mode: vertical-rl;
+  font-size: x-large;
+}

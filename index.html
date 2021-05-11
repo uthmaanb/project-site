@@ -11,42 +11,54 @@
     />
     <!-- links -->
     <link rel="stylesheet" href="./styles/navbar-homepage.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="stylesheet" href="./styles/XP.css" />
+    <link rel="stylesheet" href="./styles/skill.css" />
+    <link rel="stylesheet" href="./styles/projects.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
     <!-- scripts -->
     <script
       src="https://kit.fontawesome.com/d85f3a3d4a.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./scripts/scripts.js"></script>
   </head>
   <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <h3 class="cornerP">P</h3>
+      <div class="icons">
+        <a class="icon" href="https://api.whatsapp.com/send?phone=+27794637741"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+
+        <a class="icon" href="mailto:uthmaanbreda@gmail.com"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </div>
+      <div class="link-tel">
+        <div class="links">
+          <a class="link" href="#homePage">Home</a>
+          <a class="link" href="#about">About</a>
+          <a class="link" href="#XP">Education/Experience</a>
+          <a class="link" href="#skills">Skills</a>
+          <a class="link" href="#projects">Projects</a>
+          <a class="link" href="#testimonials">Testimonials</a>
+          <a class="link" href="#contact">Contact</a>
+        </div>
+        <a class="tel" href="tel:+27794637741">+27 79 463 7741</a>
+      </div>
+    </nav>
     <!-- Home / Landing -->
-    <section>
-      <nav class="navbar">
-        <h3 class="cornerP">P</h3>
-        <div class="icons">
-          <i class="fab fa-whatsapp icon"></i>
-          <i class="fas fa-envelope icon"></i>
-        </div>
-        <div class="link-tel">
-          <div class="links">
-            <a class="link" href="#">Home</a>
-            <a class="link" href="#">About</a>
-            <a class="link" href="#">Education/Experience</a>
-            <a class="link" href="#">Skills</a>
-            <a class="link" href="#">Projects</a>
-            <a class="link" href="#">Contact</a>
-            <a class="link" href="#">Testimonials</a>
-          </div>
-          <a class="tel" href="tel:+27794637741">+27 79 463 7741</a>
-        </div>
-      </nav>
+    <section id="homePage">
       <div class="homePage">
         <div class="page-title">
-          <p>Uthmaan Breda</p>
-          <p>1.0</p>
+          <p class="p-title name">Uthmaan Breda</p>
+          <p class="p-title num">1.0</p>
         </div>
         <div class="content-left">
           <div>
-            <h1>Lorem ipsum dolor sit amet.</h1>
+            <h1>Aspiring <span class="stndout">FULL STACK</span> Developer</h1>
             <p class="description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
               tenetur tempora animi similique pariatur illo quaerat explicabo
@@ -57,21 +69,25 @@
           <div class="btn-contain">
             <div class="descr-btn">
               <p>Download my CV</p>
-              <a href="#">CV</a>
+              <a class="button" href="#"
+                ><i class="fas fa-long-arrow-alt-right"></i
+              ></a>
             </div>
             <div class="descr-btn">
               <p>hire me ;)</p>
-              <a href="#">contact me</a>
+              <a class="button" href="#"
+                ><i class="fas fa-long-arrow-alt-right"></i
+              ></a>
             </div>
           </div>
           <div class="counters">
-            <div>
-              <p>6</p>
-              <p>weeks experience</p>
+            <div class="counter">
+              <p class="counter-num">6</p>
+              <p class="counter-name">weeks experience</p>
             </div>
-            <div>
-              <p>6</p>
-              <p>Projects Done</p>
+            <div class="counter">
+              <p class="counter-num">6</p>
+              <p class="counter-name">Projects Done</p>
             </div>
           </div>
         </div>
@@ -87,16 +103,240 @@
     </section>
 
     <!-- About -->
-    <section></section>
+    <section id="about">
+      <div class="about">
+        <div class="page-title2">
+          <p class="p-title name">About Me</p>
+          <p class="p-title num">2.0</p>
+        </div>
+        <div class="content-left">
+          <div class="text2">
+            <h1>Aspiring FULL STACK Developer</h1>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              tenetur tempora animi similique pariatur illo quaerat explicabo
+              esse dolores amet fuga, dicta natus error deleniti culpa, labore
+              modi praesentium aliquam.
+            </p>
+          </div>
+        </div>
+
+        <div class="content-right"></div>
+      </div>
+    </section>
     <!-- Work & education / Experience -->
-    <section></section>
+    <section id="XP">
+      <div class="about">
+        <div class="page-title2">
+          <p class="p-title name">Education / Experience</p>
+          <p class="p-title num">3.0</p>
+        </div>
+        <div class="content-left">
+          <div class="text2">
+            <h1>Education & Experience</h1>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              tenetur tempora animi similique pariatur illo quaerat explicabo
+              esse dolores amet fuga, dicta natus error deleniti culpa, labore
+              modi praesentium aliquam.
+            </p>
+          </div>
+          <div class="btn-contain">
+            <div class="descr-btn">
+              <p>Download my CV</p>
+              <a class="button" href="#"
+                ><i class="fas fa-long-arrow-alt-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-right">
+          <div class="vertical-menu">
+            <div class="item">
+              <img
+                class="logo"
+                src="./images/LC_Logo-removebg-preview.png"
+                alt="life choices academy"
+              />
+              <p class="year">2021-present</p>
+              <p class="descr">
+                A coding Bootcamp where I am learning the basics of coding and
+                web development as well as receiving personal development and
+                professional development
+              </p>
+            </div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Skills -->
-    <section></section>
+    <section id="skills">
+      <div class="about">
+        <div class="page-title2">
+          <p class="p-title name">Skills</p>
+          <p class="p-title num">4.0</p>
+        </div>
+        <div class="content-left">
+          <div class="text2">
+            <h1>Aspiring FULL STACK Developer</h1>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              tenetur tempora animi similique pariatur illo quaerat explicabo
+              esse dolores amet fuga, dicta natus error deleniti culpa, labore
+              modi praesentium aliquam.
+            </p>
+          </div>
+        </div>
+
+        <div class="content-right skill-icons">
+          <i class="fab fa-html5 skill-icon"></i>
+          <i class="fab fa-css3-alt skill-icon"></i>
+          <i class="fab fa-python skill-icon"></i>
+          <i class="fab fa-js-square skill-icon"></i>
+        </div>
+      </div>
+    </section>
     <!-- Projects -->
-    <section></section>
-    <!-- Contact -->
-    <section></section>
-    <!-- Testimonials / footer -->
-    <section></section>
+    <section id="projects">
+      <div class="about">
+        <div class="page-title2">
+          <p class="p-title name">Projects</p>
+          <p class="p-title num">5.0</p>
+        </div>
+        <div class="content-left">
+          <div class="text2">
+            <h1>PROJECTS</h1>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="dots">
+            <span class="dot" onclick="currentSlide(1)">Timeline</span>
+            <span class="dot" onclick="currentSlide(2)">Testimonial</span>
+            <span class="dot" onclick="currentSlide(3)">Contact Form</span>
+            <span class="dot" onclick="currentSlide(4)">Project Cards</span>
+            <span class="dot" onclick="currentSlide(5)">project5</span>
+            <span class="dot sld6" onclick="currentSlide(6)">project6</span>
+          </div>
+        </div>
+
+        <div class="content-right slide">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="./images/timeline.png" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+              <img src="./images/testimonial.png" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+              <img src="./images/contact form.png" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+              <img src="./images/project-cards.png" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+              <img src="#" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+              <img src="#" style="width: 100%" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <div class="about">
+        <div class="page-title2">
+          <p class="p-title name">Testimonials</p>
+          <p class="p-title num">6.0</p>
+        </div>
+        <div class="content-left">
+          <div class="text2">
+            <h1>Aspiring FULL STACK Developer</h1>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              tenetur tempora animi similique pariatur illo quaerat explicabo
+              esse dolores amet fuga, dicta natus error deleniti culpa, labore
+              modi praesentium aliquam.
+            </p>
+          </div>
+        </div>
+
+        <div class="content-right"></div>
+      </div>
+    </section>
+    <!-- Contact / footer -->
+    <section id="contact">
+      <div class="about">
+        <div class="page-title2">
+          <p class="p-title name">Contact Me</p>
+          <p class="p-title num">7.0</p>
+        </div>
+        <div class="content-left">
+          <div class="text2">
+            <h1>Aspiring FULL STACK Developer</h1>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              tenetur tempora animi similique pariatur illo quaerat explicabo
+              esse dolores amet fuga, dicta natus error deleniti culpa, labore
+              modi praesentium aliquam.
+            </p>
+          </div>
+        </div>
+
+        <div class="content-right">
+          <form
+            id="contact-form"
+            action="https://formspree.io/f/mwkalpve"
+            method="POST"
+          >
+            <input
+              class="contact-input"
+              type="text"
+              name="full_name"
+              id="full_name"
+              placeholder="Name"
+              required
+            />
+            <input
+              class="contact-input"
+              type="tel"
+              name="contact_no"
+              id="contact_no"
+              placeholder="Contact No"
+              required
+            />
+            <input
+              class="contact-input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              class="contact-input-msg"
+              name="message"
+              id="message"
+              placeholder="Type your message here"
+            ></textarea>
+            <button class="btn" type="submit">Submit Information</button>
+          </form>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

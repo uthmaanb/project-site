@@ -1,0 +1,40 @@
+/* scrollable list */
+.vertical-menu {
+  width: 100%; /* Set a width if you like */
+  height: 90vh;
+  margin-top: 10vh;
+  overflow-y: auto;
+}
+
+.vertical-menu div {
+  color: white; /* Black text color */
+  display: flex;
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu div:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu div.active {
+  background-color: #04aa6d; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.item {
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.descr {
+  width: 50%;
+  display: flex;
+}
