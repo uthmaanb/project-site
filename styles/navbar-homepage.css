@@ -12,17 +12,42 @@ body {
   font-family: sans-serif;
 }
 
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #151623;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f24236;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff0000;
+}
+
 /* navbar styling */
 .navbar {
+  background-color: #151623;
   border-bottom: 1px solid white;
   display: flex;
-  height: 10vh;
-  position: sticky;
+  height: 10%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
   top: 0;
 }
 
 .cornerP {
-  width: 4.5vw;
+  width: 4.5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +56,7 @@ body {
 }
 
 .icons {
-  width: 35vw;
+  width: 35%;
   display: flex;
   align-items: center;
   border-right: 1px solid white;
@@ -43,21 +68,35 @@ body {
   font-size: 30px;
 }
 
+.icon:hover {
+  color: #f24236;
+  transition: 2ms;
+}
+
 .link-tel {
   display: flex;
+  width: 60.5%;
 }
 
 .links {
-  width: 45vw;
+  width: 80%;
   display: flex;
   align-items: center;
   border-right: 1px solid white;
+  /* the css needed to make list scrollable */
+  overflow: auto;
+  white-space: nowrap;
 }
 
 .link {
-  padding-left: 5%;
+  padding-left: 3%;
   text-decoration: none;
   color: aliceblue;
+}
+
+.link:hover {
+  color: #f24236;
+  transition: 2ms;
 }
 
 .tel {
@@ -69,28 +108,35 @@ body {
   color: aliceblue;
 }
 
+.tel:hover {
+  color: #f24236;
+  transition: 2ms;
+}
+
 /* homepage */
 
 .homePage {
-  display: flex;
-  height: 91vh;
+  display: grid;
+  grid-template-columns: 4.5% 35% auto;
+  min-height: 90vh;
+  margin-top: 10vh;
   border-bottom: 1px solid white;
 }
 
 .page-title {
+  grid-column: 1 / 2;
   border-right: 1px solid white;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: 4.5vw;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 10%;
+  padding-bottom: 10%;
   writing-mode: vertical-rl;
   font-size: x-large;
 }
 
 .content-right {
-  width: 53.5vw;
+  grid-column: 3 / 4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,20 +144,23 @@ body {
 
 .profile {
   object-fit: cover;
-  height: 60vh;
-  width: 30vw;
+  height: 50%;
+  width: 50%;
   border-radius: 50%;
 }
 
 .content-left {
+  grid-column: 2 / 3;
   border-right: 1px solid white;
-  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 h1 {
   padding: 2%;
   padding-top: 10%;
-  font-size: 60px;
+  font-size: 5vw;
 }
 
 .stndout {
@@ -131,24 +180,31 @@ h1 {
 }
 
 .btn-contain {
-  height: 45vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-end;
 }
 
 .button {
-  color: white;
-  border-radius: 50px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: #f24236;
+  color: white;
+  border-radius: 50px;
   padding: 15px;
-  text-decoration-line: none;
-  font-size: x-large;
-  background-color: #b66449;
+  height: 30%;
   width: 8vw;
+  font-size: x-large;
   white-space: nowrap;
+  text-decoration-line: none;
+}
+
+.button:hover {
+  background-color: white;
+  color: #f24236;
+  transition: 0.3s;
 }
 
 .counters {

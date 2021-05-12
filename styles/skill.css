@@ -5,3 +5,23 @@
 .skill-icon {
   padding: 5%;
 }
+
+.fa-html5:hover {
+  color: #db4a25;
+  transition: 0.3s;
+}
+
+.fa-css3-alt:hover {
+  color: #036cb4;
+  transition: 0.3s;
+}
+
+.fa-python:hover {
+  color: #f7d34c;
+  transition: 0.3s;
+}
+
+.fa-js-square:hover {
+  color: #efd829;
+  transition: 0.3s;
+}
