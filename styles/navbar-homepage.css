@@ -245,3 +245,26 @@ h1 {
 .counter-name {
   font-size: x-large;
 }
+
+@media screen and (max-width: 800px) {
+  .homePage {
+    display: grid;
+    grid-template-rows: 4% 1fr 1fr;
+  }
+
+  .page-title {
+    grid-row: 1 / 2;
+  }
+
+  .content-left {
+    grid-row: 2 / 3;
+  }
+
+  .content-right {
+    grid-row: 3 / 4;
+  }
+
+  .page-title2 {
+    grid-row: 1 / 2;
+  }
+}
