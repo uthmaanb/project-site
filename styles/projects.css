@@ -36,7 +36,6 @@ img {
   border-bottom: 1px solid white;
 }
 
-.active,
 .dot:hover {
   background-color: #717171;
 }

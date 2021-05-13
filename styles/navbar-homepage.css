@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -144,9 +145,27 @@ body {
 
 .profile {
   object-fit: cover;
-  height: 50%;
+  max-width: 70%;
+  height: auto;
+}
+
+.profile-stuff {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 50%;
-  border-radius: 50%;
+  padding-top: 3%;
+  color: #ffd700;
+}
+
+.para {
+  padding-top: 3%;
 }
 
 .content-left {

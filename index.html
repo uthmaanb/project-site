@@ -4,18 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uthmaan Breda- Portfolio</title>
+    <!-- scripts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    <!-- links -->
     <link
       rel="shortcut icon"
       type="image/jpg"
       href="./images/Screenshot_from_2021-05-10_13-20-43-removebg-preview.ico"
     />
-    <!-- links -->
     <link rel="stylesheet" href="./styles/navbar-homepage.css" />
     <link rel="stylesheet" href="./styles/about.css" />
     <link rel="stylesheet" href="./styles/XP.css" />
     <link rel="stylesheet" href="./styles/skill.css" />
     <link rel="stylesheet" href="./styles/projects.css" />
     <link rel="stylesheet" href="./styles/contact.css" />
+    <link rel="stylesheet" href="./styles/testimonials.css" />
     <!-- scripts -->
     <script
       src="https://kit.fontawesome.com/d85f3a3d4a.js"
@@ -69,13 +83,16 @@
           <div class="btn-contain">
             <div class="descr-btn">
               <p>Download my CV</p>
-              <a class="button" href="#"
+              <a
+                class="button"
+                href="./files/Uthmaan Breda.pdf"
+                download="CV of Uthmaan Breda"
                 ><i class="fas fa-long-arrow-alt-right"></i
               ></a>
             </div>
             <div class="descr-btn">
               <p>hire me ;)</p>
-              <a class="button" href="#"
+              <a class="button" href="#contact"
                 ><i class="fas fa-long-arrow-alt-right"></i
               ></a>
             </div>
@@ -92,12 +109,19 @@
           </div>
         </div>
 
-        <div class="content-right container">
+        <div class="content-right container profile-stuff">
           <img
             class="profile"
-            src="./images/profile.JPG"
+            src="./images/profile-removebg-preview.png"
             alt="Profile picture"
           />
+          <div class="quote">
+            <q>
+              I am delighted to be called upon as a reference for Uthmaan. He
+              always behaves professionally.</q
+            >
+            <p class="para">-Godwin – Head of Curriculum and Learning.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -144,15 +168,28 @@
           <div class="btn-contain">
             <div class="descr-btn">
               <p>Download my CV</p>
-              <a class="button" href="#"
+              <a
+                class="button"
+                href="./files/Uthmaan Breda.pdf"
+                download="CV of Uthmaan Breda"
                 ><i class="fas fa-long-arrow-alt-right"></i
               ></a>
             </div>
           </div>
         </div>
 
-        <div class="content-right">
-          <div class="vertical-menu">
+        <div class="content-right XP-list">
+          <div class="resbtn">
+            <div class="btn-container">
+              <button class="linebtn btn" onclick="changeExperience('edu')">
+                Education
+              </button>
+              <button class="linebtn btn" onclick="changeExperience('work')">
+                Work
+              </button>
+            </div>
+          </div>
+          <div id="edu" class="vertical-menu about-content active1">
             <div class="item">
               <img
                 class="logo"
@@ -166,12 +203,90 @@
                 professional development
               </p>
             </div>
+            <div class="item">
+              <img class="logo" src="./images/unisa.jpg" alt="Unisa" />
+              <p class="year">2020</p>
+              <p class="descr">
+                Studied part time LAW with unisa for 6 months as to continue
+                from the Bcom Law, it was not for me.
+              </p>
+            </div>
+            <div class="item">
+              <img class="logo" src="./images/vc.png" alt="Varsity college" />
+              <p class="year">2018</p>
+              <p class="descr">
+                Studied full-time for a year Bcom Law at Varsity college, did
+                not complete.
+              </p>
+            </div>
+            <div class="item">
+              <img
+                class="logo"
+                src="./images/darun naim.png"
+                alt="Arabic-Course"
+              />
+              <p class="year">2017</p>
+              <p class="descr">
+                Did a full-time basic Arabic course at Darun Naim and did well,
+                the certificate is only given after the second year of studies
+              </p>
+            </div>
+            <div class="item">
+              <img class="logo" src="./images/daihs.png" alt="High School" />
+              <p class="year">2013-2015</p>
+              <p class="descr">
+                Completed matric at Darul Arqam High School with a Bachelors
+                pass
+              </p>
+            </div>
+            <div class="item">
+              <img class="logo" src="./images/dti.png" alt="Arabic-course" />
+              <p class="year">2010-2012</p>
+              <p class="descr">
+                Studied Part-time Arabic once a week through DTI.
+              </p>
+            </div>
             <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
+          </div>
+          <div id="work" class="vertical-menu about-content">
+            <div class="item">
+              <img class="logo" src="#" alt="Gamia" />
+              <p class="year">2020-2021</p>
+              <p class="descr">
+                Worked as a carpenters apprentice for my dad at Gamia Projects
+                for 7 months.
+              </p>
+            </div>
+            <div class="item">
+              <img class="logo" src="#" alt="" />
+              <p class="year"></p>
+              <p class="descr"></p>
+            </div>
+            <div class="item">
+              <img class="logo" src="#" alt="" />
+              <p class="year"></p>
+              <p class="descr"></p>
+            </div>
+            <div class="item">
+              <img class="logo" src="#" alt="" />
+              <p class="year"></p>
+              <p class="descr"></p>
+            </div>
+            <div class="item">
+              <img class="logo" src="#" alt="" />
+              <p class="year"></p>
+              <p class="descr"></p>
+            </div>
+            <div class="item">
+              <img class="logo" src="#" alt="" />
+              <p class="year"></p>
+              <p class="descr"></p>
+            </div>
+            <div class="item">
+              <img class="logo" src="#" alt="" />
+              <p class="year"></p>
+              <p class="descr"></p>
+            </div>
           </div>
         </div>
       </div>
@@ -191,17 +306,31 @@
             </h1>
             <p class="description">
               What you see here is what I know, or of what I am learning. I
-              enjoy leaning new things and perfecting what I know.
+              enjoy leaning new things and perfecting what I have learned.
             </p>
           </div>
         </div>
 
         <div class="content-right skill-icons">
-          <i class="fab fa-html5 skill-icon"></i>
-          <i class="fab fa-css3-alt skill-icon"></i>
-          <i class="fab fa-python skill-icon"></i>
-          <i class="fab fa-js-square skill-icon"></i>
-          <i class="fas fa-users skill-icon"></i>
+          <div class="icon-box">
+            <i class="fab fa-html5 skill-icon tooltip"
+              ><span class="tooltiptext">HTML5</span></i
+            >
+            <i class="fab fa-css3-alt skill-icon tooltip"
+              ><span class="tooltiptext">CSS3</span></i
+            >
+            <i class="fab fa-python skill-icon tooltip"
+              ><span class="tooltiptext">Python</span></i
+            >
+          </div>
+          <div class="icon-box">
+            <i class="fab fa-js-square skill-icon tooltip"
+              ><span class="tooltiptext">Javascript</span></i
+            >
+            <i class="fas fa-users skill-icon tooltip"
+              ><span class="tooltiptext">Teamwork</span></i
+            >
+          </div>
         </div>
       </div>
     </section>
@@ -218,6 +347,12 @@
             <p class="description">
               Here is a list of Projects I am working on, or have worked on.
             </p>
+          </div>
+          <div class="descr-btn">
+            <p>here's my github</p>
+            <a class="button" href="https://github.com/uthmaanb"
+              ><i class="fas fa-long-arrow-alt-right"></i
+            ></a>
           </div>
           <div class="dots">
             <span class="dot" onclick="currentSlide(1)"
@@ -296,8 +431,55 @@
             </p>
           </div>
         </div>
-
-        <div class="content-right"></div>
+        <div class="content-right testimo">
+          <div class="owl-carousel">
+            <div class="testemonial-text">
+              <img
+                class="profile2"
+                src="./images/Abdul-Malik Mohamed.JPG"
+                alt="image"
+              />
+              <div class="text text1">
+                <h2>Abdul-Malik</h2>
+                <h3 class="title">-Full Stack Developer-</h3>
+                <q>
+                  Uthmaan is an honest and trustworthy person. Ask him for a
+                  hand and he'll give you his arm.
+                </q>
+              </div>
+            </div>
+            <div class="testemonial-text">
+              <img
+                class="profile2"
+                src="./images/Ayyoob Slamdien.JPG"
+                alt="image"
+              />
+              <div class="text text2">
+                <h2>Ayyoob Slamdien</h2>
+                <h3 class="title">-His King-</h3>
+                <q>
+                  Uthmaan is a true comrad, a loyal follower and a fine
+                  gentleman. I am proud to have him by my side.
+                </q>
+              </div>
+            </div>
+            <div class="testemonial-text">
+              <img
+                class="profile2"
+                src="./images/Gideon Daniels.JPG"
+                alt="image"
+              />
+              <div class="text text3">
+                <h2>Gideon</h2>
+                <h3 class="title">-Dragoonix "King of Conquerers"-</h3>
+                <q>
+                  He is a guy with a big heart. he assists those who ask,
+                  without hesitation. He is a conquerer of hearts and minds.
+                </q>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- Contact / footer -->
@@ -310,7 +492,9 @@
         <div class="content-left">
           <div class="text2">
             <h1><span class="stndout">HIRE</span> ME</h1>
-            <p class="description">We can get a coffee, or give me a call</p>
+            <p class="description">
+              We can get a coffee, or you could give me a call.
+            </p>
           </div>
           <div class="cnt-me">
             <div class="cnt-box mailer">
@@ -394,5 +578,37 @@
         </div>
       </div>
     </section>
+    <!-- script tags under here -->
+    <script>
+      function changeExperience(elementID) {
+        let tabs = document.getElementsByClassName("about-content");
+        for (let i = 0; i < tabs.length; i++) {
+          tabs[i].classList.remove("active1");
+        }
+        document.getElementById(elementID).classList.add("active1");
+      }
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true,
+        });
+      });
+    </script>
   </body>
 </html>

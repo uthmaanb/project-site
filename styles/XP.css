@@ -2,7 +2,6 @@
 .vertical-menu {
   width: 100%; /* Set a width if you like */
   height: 90vh;
-  margin-top: 10vh;
   overflow-y: auto;
 }
 
@@ -37,4 +36,23 @@
 .descr {
   width: 50%;
   display: flex;
+}
+
+.about-content {
+  display: none;
+}
+.about-content.active1 {
+  display: grid;
+}
+
+.XP-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-container {
+  height: 20vh;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
 }
