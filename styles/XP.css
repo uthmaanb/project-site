@@ -1,3 +1,18 @@
+.XP {
+  display: grid;
+  grid-template-columns: 4.5% 35% auto;
+  min-height: 102vh;
+  border-bottom: 1px solid white;
+}
+
+.content-left-xp {
+  grid-column: 2 / 3;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 /* scrollable list */
 .vertical-menu {
   width: 100%; /* Set a width if you like */
@@ -55,4 +70,22 @@
   display: flex;
   justify-content: end;
   align-items: flex-end;
+}
+
+@media screen and (max-width: 800px) {
+  .XP {
+    display: grid;
+    grid-template-rows: 30vh 66vh 4%;
+    min-height: 100vh;
+  }
+
+  .content-left-xp {
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
+    padding: unset;
+  }
+
+  .item {
+    height: 200px;
+  }
 }
