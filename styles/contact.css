@@ -109,3 +109,23 @@
   padding-right: 1vw;
   color: #f24236;
 }
+
+@media screen and (max-width: 800px) {
+  .form-container {
+    grid-column: 1 / 4;
+  }
+
+  #contact-form {
+    width: 80%;
+    height: 70vh;
+    align-self: center;
+  }
+
+  .cnt-form-head {
+    font-size: 1.5em;
+  }
+
+  .cnt-me-link {
+    max-width: 70%;
+  }
+}

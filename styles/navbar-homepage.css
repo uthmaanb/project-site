@@ -41,10 +41,10 @@ body {
   border-bottom: 1px solid white;
   display: flex;
   height: 10%;
-  width: 100%;
   position: fixed;
   z-index: 100;
   top: 0;
+  list-style-type: none;
 }
 
 .cornerP {
@@ -111,6 +111,11 @@ body {
 .tel:hover {
   color: #f24236;
   transition: 2ms;
+}
+
+/* navbar responsiveness */
+.menu-btn {
+  display: none;
 }
 
 /* homepage */
@@ -248,7 +253,7 @@ h1 {
 @media screen and (max-width: 800px) {
   .homePage {
     display: grid;
-    grid-template-rows: auto auto 4%;
+    grid-template-rows: 1fr 1fr 4%;
   }
 
   .page-title {
@@ -284,6 +289,7 @@ h1 {
     display: none;
   }
 
+  /* navbar responsiveness */
   .icons {
     width: 15%;
     display: flex;

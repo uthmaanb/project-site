@@ -70,3 +70,9 @@
   visibility: visible;
   transition: 0.3s;
 }
+
+@media screen and (max-width: 800px) {
+  .skill-icon {
+    font-size: 6rem;
+  }
+}
