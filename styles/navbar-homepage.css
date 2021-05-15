@@ -284,4 +284,14 @@ h1 {
     grid-column: 1 / 4;
     writing-mode: unset;
   }
+
+  .cornerP {
+    display: none;
+  }
+
+  .icons {
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
