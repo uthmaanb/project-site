@@ -274,17 +274,14 @@ h1 {
     grid-column: 1 / 4;
   }
 
-  .icons {
-    width: 15%;
-    display: flex;
-    justify-content: space-around;
+  .about {
+    display: grid;
+    grid-template-rows: 1fr 1fr 4%;
   }
 
-  .link-tel {
-    width: unset;
-  }
-
-  .cornerP {
-    display: none;
+  .page-title2 {
+    grid-row: 3 / 4;
+    grid-column: 1 / 4;
+    writing-mode: unset;
   }
 }
