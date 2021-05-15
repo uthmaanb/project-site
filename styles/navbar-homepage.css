@@ -294,4 +294,8 @@ h1 {
     display: flex;
     justify-content: space-evenly;
   }
+
+  .link-tel {
+    width: unset;
+  }
 }
