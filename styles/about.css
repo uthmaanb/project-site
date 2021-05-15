@@ -23,7 +23,7 @@
 @media screen and (max-width: 800px) {
   .about {
     display: grid;
-    grid-template-rows: 1fr 1fr 4%;
+    grid-template-rows: auto auto 4%;
     min-height: 100vh;
   }
 
