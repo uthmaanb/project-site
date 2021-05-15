@@ -52,5 +52,6 @@ q {
     display: flex;
     flex-direction: column;
     padding-top: 5%;
+    height: 60vh;
   }
 }
