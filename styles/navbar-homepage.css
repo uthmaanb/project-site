@@ -280,6 +280,10 @@ h1 {
     justify-content: space-around;
   }
 
+  .link-tel {
+    width: unset;
+  }
+
   .cornerP {
     display: none;
   }
