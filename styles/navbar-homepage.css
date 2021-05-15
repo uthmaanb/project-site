@@ -41,6 +41,7 @@ body {
   border-bottom: 1px solid white;
   display: flex;
   height: 10%;
+  width: 100%;
   position: fixed;
   z-index: 100;
   top: 0;

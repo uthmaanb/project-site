@@ -18,7 +18,6 @@
 
 .profile2 {
   border-radius: 50%;
-  height: 60%;
   border: solid;
 }
 
@@ -45,5 +44,13 @@ q {
 }
 
 .owl-carousel {
-  max-width: 50vw;
+  max-width: 60vw;
+}
+
+@media screen and (max-width: 800px) {
+  .testemonial-text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+  }
 }

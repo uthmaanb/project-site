@@ -87,6 +87,7 @@
   padding-left: 2%;
   text-decoration: none;
   color: aliceblue;
+  font-size: 1.5em;
 }
 
 .cnt-box {
@@ -126,6 +127,6 @@
   }
 
   .cnt-me-link {
-    max-width: 70%;
+    max-width: 40%;
   }
 }

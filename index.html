@@ -155,15 +155,12 @@
         </div>
         <div class="content-left-xp">
           <div class="text2">
-            <h1>Aspiring <span class="stndout">FULL STACK</span> Developer</h1>
+            <h1>Education & <span class="stndout">Experience</span></h1>
             <p class="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              tenetur tempora animi similique pariatur illo quaerat explicabo
-              esse dolores amet fuga, dicta natus error deleniti culpa, labore
-              modi praesentium aliquam.
+              I am a fast learner so I can catch up on information quickly.
             </p>
           </div>
-          <div class="btn-contain">
+          <div class="btn-contain xp-cv">
             <div class="descr-btn">
               <p>Download my CV</p>
               <a
@@ -256,34 +253,24 @@
               </p>
             </div>
             <div class="item">
-              <img class="logo" src="#" alt="" />
-              <p class="year"></p>
-              <p class="descr"></p>
+              <img class="logo" src="#" alt="Cuecon" />
+              <p class="year">2019</p>
+              <p class="descr">Renovation and Building work with Cuecon.</p>
             </div>
             <div class="item">
-              <img class="logo" src="#" alt="" />
-              <p class="year"></p>
-              <p class="descr"></p>
+              <img class="logo" src="#" alt="Gamia" />
+              <p class="year">2017-2018</p>
+              <p class="descr">
+                Part time Administrative work with Gamia Projects.
+              </p>
             </div>
             <div class="item">
-              <img class="logo" src="#" alt="" />
-              <p class="year"></p>
-              <p class="descr"></p>
-            </div>
-            <div class="item">
-              <img class="logo" src="#" alt="" />
-              <p class="year"></p>
-              <p class="descr"></p>
-            </div>
-            <div class="item">
-              <img class="logo" src="#" alt="" />
-              <p class="year"></p>
-              <p class="descr"></p>
-            </div>
-            <div class="item">
-              <img class="logo" src="#" alt="" />
-              <p class="year"></p>
-              <p class="descr"></p>
+              <img class="logo" src="#" alt="Mamas Kombuis" />
+              <p class="year">2013-2015</p>
+              <p class="descr">
+                Part time Counter hand at a small cafe called Mamas Kombuis. I
+                worked at the till and did inventory as well.
+              </p>
             </div>
           </div>
         </div>
@@ -339,8 +326,8 @@
           <p class="p-title name">Projects</p>
           <p class="p-title num">5.0</p>
         </div>
-        <div class="content-left">
-          <div class="text2">
+        <div class="content-left proj-content1">
+          <div class="text2 proj-text">
             <h1>My <span class="stndout">PROJECTS</span></h1>
             <p class="description">
               Here is a list of Projects I am working on, or have worked on.
@@ -497,28 +484,29 @@
           <div class="cnt-me">
             <div class="cnt-box mailer">
               <a
-                class="cnt-me-link icon"
+                class="cnt-me-link"
                 href="https://www.google.co.za/maps/@-34.0233805,18.6294385,14z"
-                ><i class="fas fa-map-marked-alt fst-icon"></i>Cape Town, South
-                Africa</a
+                ><i class="fas fa-map-marked-alt fst-icon icon"></i>Cape Town,
+                South Africa</a
               >
             </div>
             <div class="cnt-box">
-              <a class="cnt-me-link icon" href="mailto:uthmaanbreda@gmail.com"
-                ><i class="fas fa-envelope fst-icon"></i
+              <a class="cnt-me-link" href="mailto:uthmaanbreda@gmail.com"
+                ><i class="fas fa-envelope fst-icon icon"></i
                 >uthmaanbreda@gmail.com</a
               >
             </div>
             <div class="cnt-box">
               <a
-                class="cnt-me-link icon"
+                class="cnt-me-link"
                 href="https://api.whatsapp.com/send?phone=+27794637741"
-                ><i class="fab fa-whatsapp icon fst-icon"></i>079 463 7741</a
+                ><i class="fab fa-whatsapp icon fst-icon icon"></i>079 463
+                7741</a
               >
             </div>
             <div class="cnt-box">
-              <a class="cnt-me-link icon" href="https://github.com/uthmaanb"
-                ><i class="fab fa-github fst-icon"></i>Github Profile</a
+              <a class="cnt-me-link" href="https://github.com/uthmaanb"
+                ><i class="fab fa-github fst-icon icon"></i>Github Profile</a
               >
             </div>
           </div>
@@ -596,11 +584,19 @@
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
           items: 1,
-          margin: 50,
           loop: true,
-          stagePadding: 100,
           dots: false,
           autoplay: true,
+          responsive: {
+            0: {
+              margin: 0,
+              stagePadding: 0,
+            },
+            800: {
+              margin: 50,
+              stagePadding: 100,
+            },
+          },
         });
       });
     </script>
