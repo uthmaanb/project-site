@@ -273,4 +273,14 @@ h1 {
     grid-row: 2 / 3;
     grid-column: 1 / 4;
   }
+
+  .icons {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .cornerP {
+    display: none;
+  }
 }
