@@ -111,6 +111,11 @@
   color: #f24236;
 }
 
+.mam {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
 @media screen and (max-width: 800px) {
   .form-container {
     grid-column: 1 / 4;
