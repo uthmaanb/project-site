@@ -1,3 +1,8 @@
+
+.proj{
+  height: 100%;
+}
+
 /* projects slide */
 .mySlides {
   display: none;
@@ -16,6 +21,8 @@ img {
 /* The dots/bullets/indicators */
 .dots {
   margin-top: 10vh;
+  height: 40vh;
+  overflow-y: auto;
 }
 
 .dot {

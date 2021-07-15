@@ -1,7 +1,7 @@
 .XP {
   display: grid;
   grid-template-columns: 4.5% 35% auto;
-  min-height: 102vh;
+  height: 100vh;
   border-bottom: 1px solid white;
 }
 
@@ -16,7 +16,7 @@
 /* scrollable list */
 .vertical-menu {
   width: 100%; /* Set a width if you like */
-  height: 90vh;
+  height: 80vh;
   overflow-y: auto;
 }
 
