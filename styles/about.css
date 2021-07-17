@@ -20,6 +20,88 @@
   font-size: x-large;
 }
 
+/* icon styles */
+#skills {
+  height: 100vh;
+}
+
+.skilt {
+  height: 100%;
+}
+
+.skill-icons {
+  display: flex;
+  flex-direction: column;
+  font-size: 150px;
+}
+
+.skill-icon {
+  padding: 5%;
+}
+
+.fa-html5:hover {
+  color: #db4a25;
+  transition: 0.3s;
+}
+
+.fa-css3-alt:hover {
+  color: #036cb4;
+  transition: 0.3s;
+}
+
+.fa-python:hover {
+  color: #f7d34c;
+  transition: 0.3s;
+}
+
+.fa-js-square:hover {
+  color: #efd829;
+  transition: 0.3s;
+}
+
+.fa-users:hover {
+  color: aqua;
+  transition: 0.3s;
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 20%;
+}
+
+/* tooltip styling */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 18px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  transition: 0.3s;
+}
+
 @media screen and (max-width: 800px) {
   .about {
     display: grid;
@@ -34,5 +116,9 @@
     padding: 0;
     border-top: 1px solid white;
     justify-content: space-around;
+  }
+
+  .skill-icon {
+    font-size: 6rem;
   }
 }

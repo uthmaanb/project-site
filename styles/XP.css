@@ -72,6 +72,28 @@
   align-items: flex-end;
 }
 
+.sw_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f24236;
+  color: white;
+  border-radius: 50px;
+  padding: 7px;
+  width: 125px;
+  font-size: 1.1em;
+  white-space: nowrap;  
+  border: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.sw_btn:hover {
+  background-color: white;
+  color: #f24236;
+  transition: 0.3s;
+}
+
 @media screen and (max-width: 800px) {
   .XP {
     display: grid;
