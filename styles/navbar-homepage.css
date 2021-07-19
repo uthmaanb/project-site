@@ -144,6 +144,14 @@ section {
   font-size: x-large;
 }
 
+.content-left {
+  grid-column: 2 / 3;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .content-right {
   grid-column: 3 / 4;
   display: flex;
@@ -174,14 +182,6 @@ section {
 
 .para {
   padding-top: 3%;
-}
-
-.content-left {
-  grid-column: 2 / 3;
-  border-right: 1px solid white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }
 
 h1 {
@@ -255,7 +255,11 @@ h1 {
 }
 
 @media screen and (max-width: 800px) {
+  section {
+    height: fit-content;
+  }
   .homePage {
+    height: unset;
     display: grid;
     grid-template-rows: 1fr 1fr 4%;
   }
@@ -269,8 +273,10 @@ h1 {
   }
 
   .content-left {
+    padding-top: 10%;
     grid-row: 1 / 2;
     grid-column: 1 / 4;
+    border-right: unset;
   }
 
   .content-right {
