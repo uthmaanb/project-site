@@ -136,7 +136,14 @@
     grid-template-rows: auto auto 4%;
   }
 
-  
+  .skill-icons {
+    height: 45vh;
+  }
+
+  .info-cont {
+    align-items: center;
+    padding: unset;
+  }
 
   .page-title2 {
     grid-row: 3 / 4;
