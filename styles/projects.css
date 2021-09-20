@@ -38,7 +38,7 @@
 }
 
 .slide1 {
-  background: url(../images/sneaker-store.png);
+  background: url(../images/BMICALC.png);
   background-size: cover;
 }
 
@@ -48,12 +48,12 @@
       rgba(55, 55, 55, 0.5),
       rgba(55, 55, 55, 0.5)
     ),
-    url(../images/sneaker-store.png);
+    url(../images/BMICALC.png);
   background-size: cover;
 }
 
 .slide2 {
-  background: url(../images/testimonial.png);
+  background: url(../images/currencycon.png);
   background-size: cover;
 }
 
@@ -63,12 +63,12 @@
       rgba(55, 55, 55, 0.5),
       rgba(55, 55, 55, 0.5)
     ),
-    url(../images/testimonial.png);
+    url(../images/currencycon.png);
   background-size: cover;
 }
 
 .slide3 {
-  background: url(../images/contact\ form.png);
+  background: url(../images/animeshop.png);
   background-size: cover;
 }
 
@@ -78,12 +78,12 @@
       rgba(55, 55, 55, 0.5),
       rgba(55, 55, 55, 0.5)
     ),
-    url(../images/contact\ form.png);
+    url(../images/animeshop.png);
   background-size: cover;
 }
 
 .slide4 {
-  background: url(../images/project-cards.png);
+  background: url(../images/sneaker-store.png);
   background-size: cover;
 }
 
@@ -93,12 +93,12 @@
       rgba(55, 55, 55, 0.5),
       rgba(55, 55, 55, 0.5)
     ),
-    url(../images/project-cards.png);
+    url(../images/sneaker-store.png);
   background-size: cover;
 }
 
 .slide5 {
-  background: url(../images/BMICALC.png);
+  background: url(../images/tickets.png);
   background-size: cover;
 }
 
@@ -108,12 +108,12 @@
       rgba(55, 55, 55, 0.5),
       rgba(55, 55, 55, 0.5)
     ),
-    url(../images/BMICALC.png);
+    url(../images/tickets.png);
   background-size: cover;
 }
 
 .slide6 {
-  background: url(../images/currencycon.png);
+  background: url(../images/sneaker-store.png);
   background-size: cover;
 }
 
@@ -123,7 +123,67 @@
       rgba(55, 55, 55, 0.5),
       rgba(55, 55, 55, 0.5)
     ),
-    url(../images/currencycon.png);
+    url(../images/sneaker-store.png);
+  background-size: cover;
+}
+
+.slide7 {
+  background: url(../images/sneaker-store.png);
+  background-size: cover;
+}
+
+.slide7:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(55, 55, 55, 0.5),
+      rgba(55, 55, 55, 0.5)
+    ),
+    url(../images/sneaker-store.png);
+  background-size: cover;
+}
+
+.slide8 {
+  background: url(../images/sneaker-store.png);
+  background-size: cover;
+}
+
+.slide8:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(55, 55, 55, 0.5),
+      rgba(55, 55, 55, 0.5)
+    ),
+    url(../images/sneaker-store.png);
+  background-size: cover;
+}
+
+.slide9 {
+  background: url(../images/contact\ form.png);
+  background-size: cover;
+}
+
+.slide9:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(55, 55, 55, 0.5),
+      rgba(55, 55, 55, 0.5)
+    ),
+    url(../images/contact\ form.png);
+  background-size: cover;
+}
+
+.slide10 {
+  background: url(../images/project-cards.png);
+  background-size: cover;
+}
+
+.slide10:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(55, 55, 55, 0.5),
+      rgba(55, 55, 55, 0.5)
+    ),
+    url(../images/project-cards.png);
   background-size: cover;
 }
 
