@@ -45,7 +45,7 @@ nowDate = new Date();
 count = monthDiff(theDate, nowDate);
 console.log(count);
 
-let counter = document.querySelector(".counter-num");
+let counter = document.querySelector(".mnth");
 console.log(counter);
 
-document.getElementsByClassName("counter-num")[0].innerHTML += `${count}`;
+document.getElementsByClassName("mnth")[0].innerHTML += `${count}`;
