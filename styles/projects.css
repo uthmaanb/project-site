@@ -113,7 +113,7 @@
 }
 
 .slide6 {
-  background: url(../images/sneaker-store.png);
+  background: url(../images/calc.png);
   background-size: cover;
 }
 
@@ -123,12 +123,12 @@
       rgba(55, 55, 55, 0.5),
       rgba(55, 55, 55, 0.5)
     ),
-    url(../images/sneaker-store.png);
+    url(../images/calc.png);
   background-size: cover;
 }
 
 .slide7 {
-  background: url(../images/sneaker-store.png);
+  background: url(../images/pokedex.png);
   background-size: cover;
 }
 
@@ -138,7 +138,7 @@
       rgba(55, 55, 55, 0.5),
       rgba(55, 55, 55, 0.5)
     ),
-    url(../images/sneaker-store.png);
+    url(../images/pokedex.png);
   background-size: cover;
 }
 
