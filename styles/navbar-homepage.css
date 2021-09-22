@@ -40,7 +40,8 @@ body {
 .navbar {
   background-color: #151623;
   border-bottom: 1px solid white;
-  display: flex;
+  display: grid;
+  grid-template-columns: 4.5% 25% auto;
   height: 10%;
   width: 100%;
   position: fixed;
@@ -50,7 +51,7 @@ body {
 }
 
 .cornerP {
-  width: 5.9vw;
+  grid-column: 1/2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,7 +60,7 @@ body {
 }
 
 .icons {
-  width: 35%;
+  grid-column: 2/3;
   display: flex;
   align-items: center;
 }
@@ -81,7 +82,7 @@ body {
 }
 
 .links {
-  width: 80%;
+  grid-column: 3/4;
   display: flex;
   align-items: center;
   border-right: 1px solid white;
