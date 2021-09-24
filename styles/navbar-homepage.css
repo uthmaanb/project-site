@@ -85,7 +85,6 @@ body {
   grid-column: 3/4;
   display: flex;
   align-items: center;
-  border-right: 1px solid white;
   /* the css needed to make list scrollable */
   overflow: auto;
   white-space: nowrap;

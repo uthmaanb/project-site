@@ -1,7 +1,7 @@
 .testemonial-text {
   height: 50vh;
-  padding-right: 15%;
-  padding-left: 15%;
+  /* padding-right: 15%;
+  padding-left: 15%; */
   display: flex;
   display: grid;
   grid-template-columns: 40% 60%;
