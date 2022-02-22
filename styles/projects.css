@@ -1,306 +1,321 @@
 .proj-content1 {
-  grid-column: 2 / 3;
-  border-right: 1px solid white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+	grid-column: 2 / 3;
+	border-right: 1px solid white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 .content-right-proj {
-  grid-column: 3 / 4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	grid-column: 3 / 4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* Slideshow container */
 .slideshow-container {
-  grid-column: 3 / 4;
-  width: 60%;
-  height: 65%;
-  position: absolute;
-  margin: auto;
-  display: flex;
+	grid-column: 3 / 4;
+	width: 60%;
+	height: 65%;
+	position: absolute;
+	margin: auto;
+	display: flex;
 }
 
 /* projects slide */
 .mySlides {
-  display: none;
-  width: 100%;
+	display: none;
+	width: 100%;
 }
 
 .mySlides a {
-  visibility: hidden;
+	visibility: hidden;
 }
 
 .mySlides:hover a {
-  visibility: visible;
+	visibility: visible;
 }
 
 .slide1 {
-  background: url(../images/BMICALC.png);
-  background-size: cover;
+	background: url(../images/BMICALC.png);
+	background-size: cover;
 }
 
 .slide1:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(55, 55, 55, 0.5),
-      rgba(55, 55, 55, 0.5)
-    ),
-    url(../images/BMICALC.png);
-  background-size: cover;
+	background: linear-gradient(
+			0deg,
+			rgba(55, 55, 55, 0.5),
+			rgba(55, 55, 55, 0.5)
+		),
+		url(../images/BMICALC.png);
+	background-size: cover;
 }
 
 .slide2 {
-  background: url(../images/currencycon.png);
-  background-size: cover;
+	background: url(../images/BMICALC.png);
+	background-size: cover;
 }
 
 .slide2:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(55, 55, 55, 0.5),
-      rgba(55, 55, 55, 0.5)
-    ),
-    url(../images/currencycon.png);
-  background-size: cover;
+	background: linear-gradient(
+			0deg,
+			rgba(55, 55, 55, 0.5),
+			rgba(55, 55, 55, 0.5)
+		),
+		url(../images/BMICALC.png);
+	background-size: cover;
 }
 
 .slide3 {
-  background: url(../images/animeshop.png);
-  background-size: cover;
+	background: url(../images/currencycon.png);
+	background-size: cover;
 }
 
 .slide3:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(55, 55, 55, 0.5),
-      rgba(55, 55, 55, 0.5)
-    ),
-    url(../images/animeshop.png);
-  background-size: cover;
+	background: linear-gradient(
+			0deg,
+			rgba(55, 55, 55, 0.5),
+			rgba(55, 55, 55, 0.5)
+		),
+		url(../images/currencycon.png);
+	background-size: cover;
 }
 
 .slide4 {
-  background: url(../images/sneaker-store.png);
-  background-size: cover;
+	background: url(../images/animeshop.png);
+	background-size: cover;
 }
 
 .slide4:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(55, 55, 55, 0.5),
-      rgba(55, 55, 55, 0.5)
-    ),
-    url(../images/sneaker-store.png);
-  background-size: cover;
+	background: linear-gradient(
+			0deg,
+			rgba(55, 55, 55, 0.5),
+			rgba(55, 55, 55, 0.5)
+		),
+		url(../images/animeshop.png);
+	background-size: cover;
 }
 
 .slide5 {
-  background: url(../images/tickets.png);
-  background-size: cover;
+	background: url(../images/sneaker-store.png);
+	background-size: cover;
 }
 
 .slide5:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(55, 55, 55, 0.5),
-      rgba(55, 55, 55, 0.5)
-    ),
-    url(../images/tickets.png);
-  background-size: cover;
+	background: linear-gradient(
+			0deg,
+			rgba(55, 55, 55, 0.5),
+			rgba(55, 55, 55, 0.5)
+		),
+		url(../images/sneaker-store.png);
+	background-size: cover;
 }
 
 .slide6 {
-  background: url(../images/calc.png);
-  background-size: cover;
+	background: url(../images/tickets.png);
+	background-size: cover;
 }
 
 .slide6:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(55, 55, 55, 0.5),
-      rgba(55, 55, 55, 0.5)
-    ),
-    url(../images/calc.png);
-  background-size: cover;
+	background: linear-gradient(
+			0deg,
+			rgba(55, 55, 55, 0.5),
+			rgba(55, 55, 55, 0.5)
+		),
+		url(../images/tickets.png);
+	background-size: cover;
 }
 
 .slide7 {
-  background: url(../images/pokedex.png);
-  background-size: cover;
+	background: url(../images/calc.png);
+	background-size: cover;
 }
 
 .slide7:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(55, 55, 55, 0.5),
-      rgba(55, 55, 55, 0.5)
-    ),
-    url(../images/pokedex.png);
-  background-size: cover;
+	background: linear-gradient(
+			0deg,
+			rgba(55, 55, 55, 0.5),
+			rgba(55, 55, 55, 0.5)
+		),
+		url(../images/calc.png);
+	background-size: cover;
 }
 
 .slide8 {
-  background: url(../images/sneaker-store.png);
-  background-size: cover;
+	background: url(../images/pokedex.png);
+	background-size: cover;
 }
 
 .slide8:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(55, 55, 55, 0.5),
-      rgba(55, 55, 55, 0.5)
-    ),
-    url(../images/sneaker-store.png);
-  background-size: cover;
+	background: linear-gradient(
+			0deg,
+			rgba(55, 55, 55, 0.5),
+			rgba(55, 55, 55, 0.5)
+		),
+		url(../images/pokedex.png);
+	background-size: cover;
 }
 
 .slide9 {
-  background: url(../images/contact\ form.png);
-  background-size: cover;
+	background: url(../images/sneaker-store.png);
+	background-size: cover;
 }
 
 .slide9:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(55, 55, 55, 0.5),
-      rgba(55, 55, 55, 0.5)
-    ),
-    url(../images/contact\ form.png);
-  background-size: cover;
+	background: linear-gradient(
+			0deg,
+			rgba(55, 55, 55, 0.5),
+			rgba(55, 55, 55, 0.5)
+		),
+		url(../images/sneaker-store.png);
+	background-size: cover;
 }
 
 .slide10 {
-  background: url(../images/project-cards.png);
-  background-size: cover;
+	background: url(../images/contact\ form.png);
+	background-size: cover;
 }
 
 .slide10:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(55, 55, 55, 0.5),
-      rgba(55, 55, 55, 0.5)
-    ),
-    url(../images/project-cards.png);
-  background-size: cover;
+	background: linear-gradient(
+			0deg,
+			rgba(55, 55, 55, 0.5),
+			rgba(55, 55, 55, 0.5)
+		),
+		url(../images/contact\ form.png);
+	background-size: cover;
+}
+
+.slide11 {
+	background: url(../images/project-cards.png);
+	background-size: cover;
+}
+
+.slide11:hover {
+	background: linear-gradient(
+			0deg,
+			rgba(55, 55, 55, 0.5),
+			rgba(55, 55, 55, 0.5)
+		),
+		url(../images/project-cards.png);
+	background-size: cover;
 }
 
 a.btnlnk {
-  align-self: center;
-  margin-left: 43%;
-  background-color: #f24236;
-  color: white;
-  border-radius: 50px;
-  padding: 15px;
-  font-size: x-large;
-  white-space: nowrap;
-  text-decoration-line: none;
+	align-self: center;
+	margin-left: 43%;
+	background-color: #f24236;
+	color: white;
+	border-radius: 50px;
+	padding: 15px;
+	font-size: x-large;
+	white-space: nowrap;
+	text-decoration-line: none;
 }
 
 /* The dots/bullets/indicators */
 .dots {
-  margin-top: 10vh;
-  height: 40vh;
-  overflow-y: auto;
+	margin-top: 10vh;
+	height: 40vh;
+	overflow-y: auto;
 }
 
 .dot {
-  border-top: 1px solid white;
-  cursor: pointer;
-  height: 60px;
-  width: 100%;
-  display: flex;
-  transition: background-color 0.3s ease;
+	border-top: 1px solid white;
+	cursor: pointer;
+	height: 60px;
+	width: 100%;
+	display: flex;
+	transition: background-color 0.3s ease;
 
-  /* text styling */
-  padding-left: 15px;
-  display: flex;
-  align-items: center;
+	/* text styling */
+	padding-left: 15px;
+	display: flex;
+	align-items: center;
 }
 
 .sld6 {
-  border-bottom: 1px solid white;
+	border-bottom: 1px solid white;
 }
 
 .dot:hover {
-  background-color: #717171;
+	background-color: #717171;
 }
 
 .proj-icon {
-  margin-left: 3%;
+	margin-left: 3%;
 }
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 @keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 /* On smaller screens, decrease text size */
 @media screen and (max-width: 800px) {
-  #prjects {
-    height: unset;
-  }
+	#prjects {
+		height: unset;
+	}
 
-  .proj-text {
-    display: none;
-  }
+	.proj-text {
+		display: none;
+	}
 
-  .proj {
-    display: grid;
-    grid-template-rows: auto auto 4%;
-  }
+	.proj {
+		display: grid;
+		grid-template-rows: auto auto 4%;
+	}
 
-  .slideshow-container {
-    height: 30%;
-    width: 100%;
-  }
+	.slideshow-container {
+		height: 30%;
+		width: 100%;
+	}
 
-  .mySlides {
-    height: 100%;
-  }
+	.mySlides {
+		height: 100%;
+	}
 
-  .content-right-proj {
-    grid-row: 1/2;
-    grid-column: 1/4;
-    height: 40vh;
-  }
+	.content-right-proj {
+		grid-row: 1/2;
+		grid-column: 1/4;
+		height: 40vh;
+	}
 
-  .proj-content1 {
-    grid-row: 2 / 3;
-    grid-column: 1 / 4;
-    flex-direction: column-reverse;
-  }
+	.proj-content1 {
+		grid-row: 2 / 3;
+		grid-column: 1 / 4;
+		flex-direction: column-reverse;
+	}
 
-  .prev,
-  .next,
-  .text {
-    font-size: 11px;
-  }
+	.prev,
+	.next,
+	.text {
+		font-size: 11px;
+	}
 
-  #contact-form button {
-    width: 100%;
-  }
+	#contact-form button {
+		width: 100%;
+	}
 }
